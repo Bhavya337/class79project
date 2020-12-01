@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,32 +16,19 @@
     <div class="topnav">
         <a class="active" href="#">Pizzaria</a>
         <div class="topnav-right">
-         <a href="#viewblock">View Menu</a>
-         <a href="#addTopings">Add Menu</a>
+         <button onclick="getmenu()">
+            View menu!!
+        </button>
+        <button>
+     Add menu
+        </button>
+       
         </div>
     </div>
 
-    <div class="row" id="viewblock">
-        <div  class="img_div"> 
-            <img class="img-responsive"  src="pizza.png">
-        </div>
-        <div class="menu_div">
-            <button id="menu_list" onclick="getmenu()" >Show menu </button>
-        </div>
-        <div  id="display_menu" > Margherita. A hugely popular margherita, with a deliciously tangy single cheese topping.<br>
-            Double Cheese Margherita. The ever-popular Margherita - loaded with extra cheese... oodies of it! <br>
-            Farm House. ...<br>
-            Peppy Paneer. ...<br>
-            Mexican Green Wave. ...<br>
-            Deluxe Veggie. ...<br>
-            Veg Extravaganza. ...<br> 
-            CHEESE N CORN. </div>
-    
-      <!-- Add menu_div here and create button to call getmenu() -->
+    <div id="menu">
+
     </div>
-
-
-
     
     <div class="newRow" id="addTopings">
         <div class="block1">
@@ -53,10 +41,6 @@
     <div>
         <img class="img-responsive"  src="topping.png">
     </div>
-    <div class="block2">
-        <div id="display_addedmenu">
-    </div>
-    </div>
-   
+
 </body>
 </html>
